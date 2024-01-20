@@ -4,7 +4,8 @@ def fib(n):
     if n < 3:
         return 1
 
-    elem_1 = elem_2 = 1
+    elem_1 = elem_2 = 1 # Chained Assignment: You can assign the same value to multiple variables in a single line using this chained approach. 
+    # assignment is processed from right to left
     the_sum = 0
     for i in range(3, n + 1):
         the_sum = elem_1 + elem_2
